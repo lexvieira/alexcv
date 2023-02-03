@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Resume Online using React Bootstrap Components, TypeScript, Json, Docker, Deployment on Netlify
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

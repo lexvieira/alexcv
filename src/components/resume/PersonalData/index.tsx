@@ -8,7 +8,7 @@ const PersonalData = () => {
   const dataUser = resume.personaldata
 
   return (
-    <Container fluid>
+    <Container fluid className='personaldata'>
       <Row>
         <Col xs={12} md={12}>
           <h1 className="title">{dataUser.name}</h1>

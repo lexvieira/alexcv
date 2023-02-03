@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom'
 
 const Github = () => {
   const dataGithub = resume.github;
-  return (
+  return (  
     <>
       <PersonalData />
-      <Container fluid>
+      <Container fluid className='divgithub'>
         <Row>
           <Col xs={12} md={12}>
           <h1 className='capitalize title'>{dataGithub.title}</h1>

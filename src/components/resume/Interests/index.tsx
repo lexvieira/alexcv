@@ -9,15 +9,15 @@ const Interests = () => {
   return (
     <>
       <PersonalData />
-      <Container fluid>
+      <Container fluid className='buttonspace'>
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={12} md={12} >
             <h1 className='capitalize title'>{dataInterests.title}</h1>
             <h3>{dataInterests.text}</h3>
               {dataInterests.skills.map((interest, index) => (
                 <>
                 <Button key={index} variant="primary">{interest}</Button>
-                &nbsp;               
+                {' '}             
                 </>
               ))}
           </Col>

@@ -13,7 +13,7 @@ const Summary = () => {
           <Col xs={12} md={12}>
             <h1 className='title'>{dataSummary.title}</h1>
             {dataSummary.text.map((text, index) => (
-              <p key={index}>{text}</p>
+              <p key={index} style={{textAlign: 'justify'}}>{text}</p>
             ))}
           </Col>
         </Row>

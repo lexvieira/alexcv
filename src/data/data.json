@@ -1,0 +1,410 @@
+{
+  "topics": [
+    {
+      "topic": "Summary Of Qualifications",
+      "link": "/summary",
+      "icon": 1
+    },
+    {
+      "topic": "Education",
+      "link": "/education",
+      "icon": 2
+    },
+    {
+      "topic": "Github Projects",
+      "link": "/github",
+      "icon": 3
+    },
+    {
+      "topic": "Languages",
+      "link": "/languages",
+      "icon": 4
+    },
+    {
+      "topic": "Soft Skills",
+      "link": "/softskills",
+      "icon": 5
+    },
+    {
+      "topic": "Technical Skills",
+      "link": "/technicalskills",
+      "icon": 6
+    },
+    {
+      "topic": "Courses / Moocs",
+      "link": "/coursesmoocs",
+      "icon": 7
+    },
+    {
+      "topic": "Interests",
+      "link": "/interests",
+      "icon": 8
+    },
+    {
+      "topic": "Work Experience",
+      "link": "/workexperience",
+      "icon": 9
+    },
+    {
+      "topic": "Volunteering",
+      "link": "/volunteering",
+      "icon": 10
+    }
+  ],
+  "personaldata": {
+    "name": "Alexsandro V. L.",
+    "picture": "https://avatars.githubusercontent.com/u/11091181?s=400&u=2de948a9b8d927d99bdac62010278198c55a55c7&v=4",
+    "nickname": "Alex",
+    "objective": ["Sustainability", "Environment", "Health", "Education areas"],
+    "mobile": "+1 332 455 0267",
+    "mobilelink": "https://api.whatsapp.com/send?phone=13324550267&text=*Contact%20Mobile%20Resume:%20(Write%20your%20text%20here)%0a_________________________%0a",
+    "skype": "lex-oit",
+    "skypelink": "https://join.skype.com/invite/f6u65AYGolDD",
+    "email": "lexvieira.info@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/lexvieira",
+    "github": "https://github.com/lexvieira",
+    "website": "https://n-code.co",
+    "other": []
+  },
+  "summary": {
+    "title": "Summary Of Qualifications",
+    "text": [
+      "I am Alex, a hyperactive, troubleshooter, and resilient systems analyst, passionate about technology since 1995. I have worked from technical Support to complex IT projects, and for more than ten years for Telecom and Broker companies automating processes. I am the bridge gap between clients and IT. I have been participating in all project life cycle phases as a full-stack developer and data analyst, most of the time in legacy systems.",
+      "I am returning to the IT area after a sabbatical break traveling in Europe and Asia since 2018, discovering new cultures, studying languages, and learning about recycling processes using technology. Ready for a career restart, entering UX, DevOps, Docker, React/React Native, and Data Analytics, expecting to have the opportunity to participate in projects that can help the world to become a better place. Sustainability, Education, or Health areas, making technology arrives in places where it barely exists."
+    ]
+  },
+  "education": { 
+    "title": "Education",
+    "schools": [
+      {
+        "school": "Mackenzie Presbyterian University",
+        "period": "Jun/2015 – Jun/2017.",
+        "course": "Post-Graduate – Data Science Specialization (Big Data Analytics)",
+        "thesis": "Data Science Project: Waste monetization using big data to improve the recycling process."
+      },
+      {
+        "school": "Sumaré College",
+        "period": "Jun/2009 – Dec/2011",
+        "course": "Technological Degree – Computer Network"
+      },
+      {
+        "school": "Technical College Aprígio Gonzaga",
+        "period": "Jan/2007 – Jul/2008",
+        "course": "Technician in Electronics"
+      },
+      {
+        "school": "Technical College Camargo Aranha",
+        "period": "Jan/2005 – Jul/2006",
+        "course": "Technician in Computer Science "
+      }
+    ]
+  },
+  "github": {
+    "title": "Github Projects",
+    "text": "Projects regarding education and help students to start to learn IT and languages.",
+    "projects": [
+      {
+        "links": [
+          "https://github.com/lexvieira/MultiTranslator_WithSpeak",
+          "http://translator.ilearnbymyself.com"
+        ],
+        "text": "Multi Language translator in 7 different languages in the Beta version with control the audio speed to learn the pronunciation, published on Github and Colab."
+      },
+      {
+        "links": ["https://github.com/lexvieira/Docker_React_Native"],
+        "text": "Using Docker to Develop and Deploy React/React Native Apps without need to install any tools on your machine"
+      },
+      {
+        "links": ["https://github.com/lexvieira/Docker-Sql-Server"],
+        "text": "Project to run a SQL Server Database in seconds using a Docker Container EN | PT"
+      },
+      {
+        "links": [
+          "https://github.com/lexvieira/ContactPlusInternacionalNumbersFix"
+        ],
+        "text": "Project to help android users to fix the international contacts numbers after change of phone or need to reinstall apps like Whatsapp or Line."
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "text": "Languages that I learned by myself, using technology, like apps or simply talking with people",
+    "languages": [
+      {
+        "language": "Portuguese",
+        "level": "(Native)"
+      },
+      {
+        "language": "English",
+        "level": "(Advanced)"
+      },
+      {
+        "language": "Spanish",
+        "level": "(Intermediate/Advance)"
+      },
+      {
+        "language": "French/Italian/Polish",
+        "level": "(self-taught)"
+      },
+      {
+        "language": "Thai/Khmer/Viet",
+        "level": "(self-taught)"
+      }
+    ]
+  },
+  "softskills": {
+    "title": "Soft Skills",
+    "text": "",
+    "skills": [
+      "Self-taught",
+      "Empathy",
+      "Multitasking",
+      "Listening",
+      "Creativity",
+      "Energy",
+      "Critical thinking",
+      "Motivating",
+      "Troubleshooting",
+      "Proactive",
+      "Independence",
+      "Respectfulness"
+    ]
+  },
+  "technicalskills": {
+    "title": "Technical Skills",
+    "text": "",
+    "skills": [
+      "CSS",
+      "HTML",
+      "Javascript",
+      "TypeScript",
+      "Jquery",
+      "SQL / TSQL",
+      "Git",
+      "React/React Native",
+      "Docker",
+      "Python/R",
+      "Data Analysis",
+      "ETL",
+      "Excel / VBA",
+      "Programming Logic",
+      "C#",
+      "VB",
+      "PHP",
+      "Node.js"
+    ]
+  },
+  "coursesmoocs": {
+    "title": "Courses / Moocs",
+    "text": "Courses or Workshops relevants or that I have been participaing recently",
+    "courses": [
+      {
+        "course": "Foundations of User Experience (UX) Design",
+        "institution": "Google/Coursera",
+        "when": "Sep/2022.",
+        "link": ""
+      },
+      {
+        "course": "React / React Native / Javascript ES6 / DevOps",
+        "institution": "Codecademy / Reactnative.dev",
+        "when": "Aug/2022 Jan/2023.",
+        "link": ""
+      },
+      {
+        "course": "Python {Beginner, Fundamentals, Creating Scalable, Robust, Interactive Code}",
+        "institution": "EDX / Microsoft",
+        "when": "Jan/2020 - Mar/2020.",
+        "link": ""
+      },
+      {
+        "course": "MongoDB Basics",
+        "institution": "MongoDB University",
+        "when": "Aug/2018",
+        "link": ""
+      },
+      {
+        "course": "Google Cloud Platform (Essentials) / Cloud Onboard Training",
+        "institution": "Qwiklabs/Google",
+        "when": "May and Jun/2018",
+        "link": ""
+      },
+      {
+        "course": "Software Processes and Agile Practices",
+        "institution": "University of Alberta/ Coursera",
+        "when": "Nov/2017.",
+        "link": ""
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "text": "",
+    "skills": [
+      "Rubik's Cube",
+      "Juggling",
+      "Chess",
+      "Ukulele",
+      "Technology",
+      "Help people to improve themselves",
+      "Learn about Recycling Processes",
+      "Languages to get close to people"
+    ]
+  },
+  "workexperience": {
+    "title": "Work Experience",
+    "text": "",
+    "companies": [
+      {
+        "company": "SABBATICAL / CAREER BREAK",
+        "when": "Jan/2019 – Present ",
+        "activities": "Traveling through Europe between 2018 and 2020, improving my English skills, meeting people, learning about the culture, studying about the recycling process in Europe. Between 2020 and 2022 in Asia also studying about recycling and helping people to learn English. Furthermore, sporadically working as a freelancer consultant, learning new programming languages and technologies and enjoying the time visiting my family.",
+        "subcompanies": [
+          {
+            "occupation": "KINDERGARTEN, PRIMARY AND HIGH SCHOOL ENGLISH TEACHER IN THAILAND",
+            "when": "Aug/2020 – Nov/2020 / May/2021 - Jul/2021 ",
+            "activities": [
+              "Working and volunteering as English Teacher in small villages, teaching about conversation and using technologies like Duolingo for schools to captivate students to learn in a friendly way. Creating also the computer language lab in 2 different schools for online learning. "
+            ]
+          }
+        ]
+      },
+      {
+        "company": "MUNDO OPEN TECNOLOGIA",
+        "occupation": "Freelancer IT Consultant / Full Stack Developer ",
+        "when": "Jul/2017 – Jan/2019",
+        "activities": [
+          "Consulting in IT projects.",
+          "Analysis of systems structures and maintenance of systems, migration of IT Services,  offering the best solutions for the clients.",
+          "Full Stack Development, VBA Projects. Databases SQL Server and MySQL."
+        ]
+      },
+      {
+        "company": "TELEFONICA MULTINATIONAL GROUP SPAIN",
+        "when": "Jan 2007 - Jul 2017",
+        "subcompanies": [
+          {
+            "company": "TELEFONICA CORRETORA DE SEGUROS LTDA",
+            "when": "Sep/2012 – Jul/2017",
+            "occupation": "System Analyst",
+            "activities": [
+              "IT and Insurance projects.",
+              "Requirements analysis, Business process automation.",
+              "Maintenance of legacy system in VB.Net/SQL Server.",
+              "Full Stack Development, including Data Integration, ETL, Data Encryption.",
+              "Data Analysis, reports, dashboards, ad hoc queries and presentation for meetings.",
+              "Cloud computer management (IaaS), Windows Server, Databases, backup, migration. "
+            ],
+            "technologies": [
+              "VB.Net",
+              "jQuery",
+              "Ajax",
+              "HTML5",
+              "CSS",
+              "XML",
+              "JavaScript",
+              "Bootstrap",
+              "Web APIs",
+              "SQL Server",
+              "Procedures",
+              "Views",
+              "Triggers",
+              "CLR",
+              "BULK",
+              "ETL",
+              "Data Encryption",
+              "Reporting Services SSRS",
+              "Database maintenance",
+              "Team Foundation Server (TFS)."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "TELEFONICA TELECOMUNICAÇÕES/VIVO.",
+        "when": "Sep/2012 – Jul/2017",
+        "departments": [
+          {
+            "department": "Planning Department of Datalinks Installation.",
+            "occupations": [
+              {
+                "occupation": "Telecom Analyst II",
+                "when": "Sep/2010 - Sep/2012"
+              },
+              {
+                "occupation": "Supervisor (Contract)",
+                "when": "May/2010 - Sep/2010"
+              }
+            ]
+          },
+          {
+            "department": "Planning Department of Datalinks Repair.",
+            "occupations": [
+              {
+                "occupation": "Senior Technician",
+                "when": "Mar/2010 - May/2010"
+              },
+              {
+                "occupation": "Full Technician",
+                "when": "Oct/2008 - Mar/2010"
+              },
+              {
+                "occupation": "Early Positions: Attendant/Analyst,Examiner",
+                "when": "Jan/2007 - Oct/2008"
+              }
+            ]
+          }
+        ],
+        "occupation": "System Analyst",
+        "activities": [
+          "IT and Telecom projects.",
+          "Requirements analysis, Business process automation.",
+          "Maintenance of legacy systems in PHP, C#, ASP Classic, MySQL.",
+          "Full Stack Development using C# SQL Server.",
+          "Data Analysis, reports, dashboards, ad hoc queries and presentation for meetings. Reports automation using Excel VBA, ",
+          "On-premise Infrastructure management, Windows Server, Databases, backup, migration, FTP Server."
+        ],
+        "technologies": [
+          "C#",
+          "VB.Net",
+          "Ajax",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "XML",
+          "PHP",
+          "SQL Server",
+          "Procedures",
+          "Views",
+          "Triggers",
+          "ETL",
+          "Backup",
+          "On-premise Infrastructure Management"
+        ]
+      },
+      {
+        "company": "TECLA MASTER COMÉRCIO E IMPORTAÇÃO LTDA",
+        "when": "Jan/2006 - Sep/2006",
+        "occupation": "Support Analyst",
+        "activities": [
+          "Personal Internet Communicator (PIC), Digital Inclusion project to offer low cost computers to the low-income population.",
+          "Development of the system to register the customer tickets and to issue receipts using Microsoft Access and VBA.",
+          "Technical Support in IT and audio video products. "
+        ]
+      }
+    ]
+  },
+  "volunteering": {
+    "title": "Volunteering",
+    "text": "",
+    "volunteers": [
+      {
+        "year": 2001,
+        "activities": "Participated as a volunteer in a government project called PAT (Work Attendance Station), an inclusion project that helped low-income people find jobs in their region,"
+      },
+      {
+        "year": 2004,
+        "activities": "Participated in the digital inclusion project Tele Centro in São Paulo City, helping the people to use computers with operating system Linux."
+      }
+    ]
+  }
+}

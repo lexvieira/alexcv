@@ -1,0 +1,22 @@
+
+/* Text Capitalization */
+.capitalize {
+	text-transform: capitalize;	
+}
+
+.uppercase {
+	text-transform: uppercase;	
+}
+
+.lowercase {
+	text-transform: lowercase;	
+}
+/* Unset in case if it's needed to force a non capitalization */
+.caseunset {
+	text-transform: unset!important;	
+}
+
+h1.title{
+	font-size: 1.7em;
+	color: #db3236;
+}

@@ -67,7 +67,7 @@ const PersonalData = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RenderIconSideBar icon={17} /> {dataUser.website}
+                <RenderIconSideBar icon={17} /> {dataUser.website} {' '}<span className='italic'>(website under development)</span>
               </a>
             </li>
           </ul>

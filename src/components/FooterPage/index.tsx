@@ -34,10 +34,10 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              TypeScript{' '}
+              TypeScript/Json{' '}
               <RenderIconSideBar icon={18} />
             </a>
-            {' '} 
+            {' '}
             <a
               href="https://www.docker.com/"
               target="_blank"
@@ -45,6 +45,16 @@ const Footer = () => {
             >
               Dev Docker{' '}
               <RenderIconSideBar icon={19} />
+            </a>
+            {' '}             
+             
+            <a
+              href="https://github.com/lexvieira/alexcv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github Repository{' '}
+              <RenderIconSideBar icon={16} />
             </a>
             {' '} 
             <a

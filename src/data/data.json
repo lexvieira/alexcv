@@ -1,5 +1,30 @@
 {
+  "header": {
+    "icons": [
+      {
+        "link": "https://github.com/lexvieira",
+        "iconID": 20
+      },
+      {
+        "link": "https://www.linkedin.com/in/lexvieira",
+        "iconID": 21
+      },
+      {
+        "link": "https://api.whatsapp.com/send?phone=13324550267&text=*Contact%20Mobile%20Resume:%20(Write%20your%20text%20here)%0a_________________________%0a",
+        "iconID": 22
+      },
+      {
+        "link": "https://join.skype.com/invite/f6u65AYGolDD",
+        "iconID": 23
+      }
+    ]
+  },
   "topics": [
+    {
+      "topic": "Contact me",
+      "link": "/contact",
+      "icon": 0
+    },
     {
       "topic": "Summary Of Qualifications",
       "link": "/summary",
@@ -73,7 +98,7 @@
       "I am returning to the IT area after a sabbatical break traveling in Europe and Asia since 2018, discovering new cultures, studying languages, and learning about recycling processes using technology. Ready for a career restart, entering UX, DevOps, Docker, React/React Native, and Data Analytics, expecting to have the opportunity to participate in projects that can help the world to become a better place. Sustainability, Education, or Health areas, making technology arrives in places where it barely exists."
     ]
   },
-  "education": { 
+  "education": {
     "title": "Education",
     "schools": [
       {

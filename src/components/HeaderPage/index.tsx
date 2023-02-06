@@ -9,6 +9,8 @@ import './style.css'
 
 const Header = () => {
   const dataUser = resume.personaldata;
+  const dataIconHeader = resume.header;
+
 
   return (
     <header className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
@@ -22,9 +24,7 @@ const Header = () => {
         <Nav>
           <IconContext.Provider
             value={{
-              color: 'white',
-              size: '2em',
-              className: 'global-class-name',
+              className: 'iconContextheader',
             }}
           >
             <Nav.Link

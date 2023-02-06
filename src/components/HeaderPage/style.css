@@ -1,3 +1,16 @@
 .iconposition {
   padding-bottom: 6px;
 }
+
+.iconContextheader {
+  size: 2em;
+  color: white;
+}
+
+/* Adapt the website for responsive devices */
+@media screen and (max-width: 942px) {
+  .iconContextheader {
+    size: 2em;
+    color: white;
+  }
+}

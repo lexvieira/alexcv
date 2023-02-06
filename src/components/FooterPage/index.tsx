@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import logo from '../../logo.svg'
+import LinksContact from '../resume/PersonalData/Links'
 import RenderIconSideBar from '../utils/iconsEnum'
 // import PersonalData from '../resume/PersonalData'
 import './footer.css'
@@ -9,9 +10,9 @@ const Footer = () => {
   return (
     <footer>
       <Container fluid className="bg-dark shadow sticky-bottom footer">
-        <Row>
+        <Row className='footercontact'>
           <Col>
-            {/* <PersonalData /> */}
+            <LinksContact />
           </Col>
         </Row>
         

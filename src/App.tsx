@@ -60,7 +60,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Summary />} />
-          <Route path="personal" element={<PersonalData />} />
+          <Route path="contact" element={<PersonalData />} />
           <Route path="summary" element={<Summary />} />
           <Route path="education" element={<Education />} />
           <Route path="github" element={<Github />} />

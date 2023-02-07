@@ -3,19 +3,19 @@
     "icons": [
       {
         "link": "https://github.com/lexvieira",
-        "iconID": 20
-      },
-      {
-        "link": "https://www.linkedin.com/in/lexvieira",
         "iconID": 21
       },
       {
-        "link": "https://api.whatsapp.com/send?phone=13324550267&text=*Contact%20Mobile%20Resume:%20(Write%20your%20text%20here)%0a_________________________%0a",
+        "link": "https://www.linkedin.com/in/lexvieira",
         "iconID": 22
       },
       {
-        "link": "https://join.skype.com/invite/f6u65AYGolDD",
+        "link": "https://api.whatsapp.com/send?phone=13324550267&text=*Contact%20Mobile%20Resume:%20(Write%20your%20text%20here)%0a_________________________%0a",
         "iconID": 23
+      },
+      {
+        "link": "https://join.skype.com/invite/f6u65AYGolDD",
+        "iconID": 24
       }
     ]
   },

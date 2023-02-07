@@ -3,14 +3,16 @@
 }
 
 .iconContextheader {
-  size: 2em;
+  height: 2em;
+  width: 2em;
   color: white;
 }
 
 /* Adapt the website for responsive devices */
 @media screen and (max-width: 942px) {
   .iconContextheader {
-    size: 2em;
+    height: 1em;
+    width: 1em;
     color: white;
   }
 }

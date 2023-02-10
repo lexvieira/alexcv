@@ -9,7 +9,7 @@ const SoftSkills = () => {
   return (
     <>
       <PersonalData />
-      <Container fluid className='buttonspace'>
+      <Container fluid className='divsoftskills buttonspace'>
         <Row>
           <Col xs={12} md={12}>
             <h1 className='capitalize title'>{dataSoftSkills.title}</h1>

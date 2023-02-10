@@ -1,4 +1,4 @@
-ul {
+.divinterests ul {
   -moz-column-count: 2;
   -moz-column-gap: 20px;
   -webkit-column-count: 2;
@@ -10,4 +10,20 @@ ul {
 
 .buttonspace button {
   margin: 0.1rem 0.1rem;
+}
+
+/* Adapt the website for responsive devices */
+@media screen and (max-width: 942px) {
+  .divinterests ul {
+    -moz-column-count: 1;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 10px;
+    column-count: 1;
+    column-gap: 10px;
+    list-style: circle; 
+    padding-left: 0px;
+
+  }
+  
 }

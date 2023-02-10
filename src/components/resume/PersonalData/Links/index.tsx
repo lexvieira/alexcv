@@ -8,10 +8,11 @@ const LinksContact = () => {
   const dataUser = resume.personaldata
 
   return (
-    <Container fluid className='contactinfo'>
-      <Row>
-        <Col xs={12} md={12}>
-          <ul className='contactlist'>
+    // <Container fluid >
+    <>
+      <Row className="linkscontacttop contactinfo">
+        <Col> 
+          <ul className="contactlist">
             <li>
               <a href={'mailto:' + dataUser.email}>
                 <RenderIconSideBar icon={11} /> {dataUser.email}
@@ -60,13 +61,16 @@ const LinksContact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RenderIconSideBar icon={17} /> {dataUser.website} {' '}<span className='italic'>(website under development)</span>
+                <RenderIconSideBar icon={17} /> {dataUser.website}{' '}
+                <span className="italic">(website under development)</span>
               </a>
             </li>
           </ul>
         </Col>
       </Row>
-    </Container>
+
+      {/* // </Container> */}
+    </>
   )
 }
 

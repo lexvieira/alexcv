@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import PersonalData from '../PersonalData'
 import resume from '../../../data/data.json'
-import './style.css'
+// import './style.css'
 
 const Education = () => {
   const dataEducation = resume.education

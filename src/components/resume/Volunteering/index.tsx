@@ -9,7 +9,7 @@ const Volunteering = () => {
   return (
     <>
       <PersonalData />
-      <Container fluid>
+      <Container fluid  className='divvolunteering'>
         <Row>
           <Col xs={12} md={12}>
             <h1 className='capitalize title'>{dataVolunteering.title}</h1>

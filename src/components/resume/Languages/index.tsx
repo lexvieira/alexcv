@@ -9,7 +9,7 @@ const Languages = () => {
   return (
     <>
       <PersonalData />
-      <Container fluid>
+      <Container fluid className='divlanguages'>
         <Row>
           <Col xs={12} md={12}>
           <h1 className='capitalize title'>{dataLanguages.title}</h1>

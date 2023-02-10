@@ -1,4 +1,4 @@
-ul {
+.divlanguages ul {
   -moz-column-count: 2;
   -moz-column-gap: 20px;
   -webkit-column-count: 2;
@@ -6,4 +6,20 @@ ul {
   column-count: 2;
   column-gap: 20px;
   list-style: circle; 
+}
+
+/* Adapt the website for responsive devices */
+@media screen and (max-width: 942px) {
+  .divlanguages ul {
+    -moz-column-count: 1;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 10px;
+    column-count: 1;
+    column-gap: 10px;
+    list-style: circle; 
+    padding-left: 0px;
+
+  }
+  
 }

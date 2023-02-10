@@ -22,40 +22,8 @@ import Volunteering from './components/resume/Volunteering'
 // import PersonalData from './components/resume/PersonalData'
 
 function App() {
-  // const [dataUser, setDataUser] = useState<any>({})
-  // const [objective, setObjectives] = useState<any>([])
-  // // const [topic, setTopics] = useState<any>([])
-
-  // useEffect(() => {
-  //   setDataUser(resume.personaldata)
-  //   setObjectives(resume.personaldata.objective)
-  //   // setTopics(resume.topics)
-  // }, [])
-
   return (
     <>
-      {/* <Routes>
-        <Route path="/" element={<Home />}>
-          <Route index element={<Home />} />
-          <Route path="summary" element={<Summary />} />
-          <Route path="education" element={<PersonalData />} />
-          <Route path="github" element={<Summary />} />
-          <Route path="languages" element={<Summary />} />
-          <Route path="softskills" element={<Summary />} />
-          <Route path="technicalskills" element={<Summary />} />
-          <Route path="coursesmoocs" element={<Summary />} />
-          <Route path="interests" element={<Summary />} />
-          <Route path="workexperience" element={<Summary />} />
-          <Route path="volunteering" element={<Summary />} /> */}
-
-          {/* <Route path="dashboard" element={<Dashboard />} /> */}
-          {/* Check this https://github.com/remix-run/react-router/blob/dev/examples/basic/src/App.tsx */}
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
-          {/* <Route path="*" element={<NoMatch />} /> */}
-        {/* </Route>
-      </Routes> */}
       {/* Routes version 6: */}
       <Routes>
         <Route path="/" element={<Home />}>
@@ -77,8 +45,6 @@ function App() {
           <Route path="*" element={<Error404 />} />
         </Route>
       </Routes>
-
-
     </>
   )
 }

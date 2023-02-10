@@ -9,7 +9,7 @@ const Interests = () => {
   return (
     <>
       <PersonalData />
-      <Container fluid className='buttonspace'>
+      <Container fluid className='divinterests buttonspace'>
         <Row>
           <Col xs={12} md={12} >
             <h1 className='capitalize title'>{dataInterests.title}</h1>

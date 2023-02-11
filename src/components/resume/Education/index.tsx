@@ -1,6 +1,4 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import PersonalData from '../PersonalData'
 import resume from '../../../data/data.json'
 // import './style.css'
 
@@ -8,10 +6,9 @@ const Education = () => {
   const dataEducation = resume.education
   return (
     <>
-      <PersonalData />
-      <Container fluid className='diveducation'>
+      {/* <Container fluid className='diveducation'>
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={12} md={12}> */}
             <h1 className='capitalize title'>{dataEducation.title}</h1>
             <ul>
               {dataEducation.schools.map((school, index) => (
@@ -24,9 +21,9 @@ const Education = () => {
               ))}
             </ul>
 
-          </Col>
+          {/* </Col>
         </Row>
-      </Container>
+      </Container> */}
     </>
   )
 }

@@ -1,6 +1,6 @@
 
 /* Adapt the website for responsive devices */
-@media screen and (max-width: 942px) {
+@media screen and (max-width: 768px) {
   .linkscontacttop {
     display: none;
   }

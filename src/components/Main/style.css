@@ -19,6 +19,7 @@ ul a {
 /* Sidebar Styles */
 #wrapper {
   overflow-x: hidden;
+  min-width: 100%;
 }
 
 #sidebar-wrapper {
@@ -36,8 +37,8 @@ ul a {
   width: 15rem;
 }
 
-#page-content-wrapper {
-  min-width: 100vw;
+.page-content-wrapper {
+  min-width: 75%;
 }
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {

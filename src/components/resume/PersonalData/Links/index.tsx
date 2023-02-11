@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import resume from '../../../../data/data.json'
 import RenderIconSideBar from '../../../utils/iconsEnum'
 import './style.css'
@@ -10,9 +10,9 @@ const LinksContact = () => {
   return (
     // <Container fluid >
     <>
-      <Row className="linkscontacttop contactinfo">
+      <Row className="contactinfo">
         <Col> 
-          <ul className="contactlist">
+          <ul className="contactlist1">
             <li>
               <a href={'mailto:' + dataUser.email}>
                 <RenderIconSideBar icon={11} /> {dataUser.email}

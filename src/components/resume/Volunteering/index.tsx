@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import PersonalData from '../PersonalData'
 import resume from '../../../data/data.json'
 import './style.css'
 
@@ -8,7 +7,6 @@ const Volunteering = () => {
   const dataVolunteering = resume.volunteering;
   return (
     <>
-      <PersonalData />
       <Container fluid  className='divvolunteering'>
         <Row>
           <Col xs={12} md={12}>

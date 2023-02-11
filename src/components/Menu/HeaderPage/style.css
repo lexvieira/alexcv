@@ -8,11 +8,16 @@
   color: white;
 }
 
+.ms-auto {
+  margin-left: auto !important;
+}
+
 /* Adapt the website for responsive devices */
 @media screen and (max-width: 768px) {
   .iconContextheader {
-    height: 1em;
-    width: 1em;
+    height: 1.3em;
+    width: 1.3em;
     color: white;
+    flex-direction: row!important;
   }
 }

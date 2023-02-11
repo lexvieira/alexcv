@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import PersonalData from '../PersonalData'
 import resume from '../../../data/data.json'
 import './style.css'
 
@@ -8,7 +7,6 @@ const WorkExperience = () => {
   const dataWorkExperience = resume.workexperience;
   return (
     <>
-      <PersonalData />
       <Container fluid className='workexperience'>
         <Row>
           <Col xs={12} md={12}>

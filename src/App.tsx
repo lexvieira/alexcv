@@ -27,7 +27,7 @@ function App() {
       {/* Routes version 6: */}
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<Summary />} />
+          <Route index element={<PersonalData />} />
           <Route path="contact" element={<PersonalData />} />
           <Route path="summary" element={<Summary />} />
           <Route path="education" element={<Education />} />

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Outlet } from 'react-router-dom'
 import Footer from '../FooterPage'
+import BackHome from '../Menu/Back'
 import Header from '../Menu/HeaderPage'
 // import Parent from '../Pass'
 import SideBar from '../Menu/SideBar'
@@ -23,24 +24,26 @@ const Main = () => {
   return (
     <>
       {/* */}
-      <div className="p-0 text-wrap" id="wrapper">
-        <Row noGutters className='g-0'>
-          {/* <Col> */}
-            <SideBar showsidebar={show} />
-          {/* </Col> */}
-          <Col className="">
-            <Container fluid className="p-0 page-content-wrapper">
-              <Row noGutters>
-                <Col className="">
-                  <Header setSideBarState={setSideBarState} display={show} />
-                  <Container fluid className="main">
-                    <Outlet />
-                  </Container>
-                </Col>
-              </Row>
-            </Container>
-          </Col>
-        </Row>
+      {/* Wrapper, put Sidebar, Header and Content in a Div */}
+      <Header setSideBarState={setSideBarState} display={show} />
+      <div className="d-flex" id="wrapper">
+        {/* Sidebar */}
+        <SideBar setSideBarState={setSideBarState} display={show} />
+        {/* Page Content Wrapper, include Header and Content Together */}
+        <div className="page-content-wrapper">
+          <Container fluid className="main">
+            <Row>
+              <Col xl={9} lg={9} md={'auto'} sm={'auto'} >
+                <Outlet />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <BackHome />
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
 
       {/* setshow={setShow()}  */}

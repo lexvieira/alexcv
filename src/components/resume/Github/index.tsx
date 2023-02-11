@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import PersonalData from '../PersonalData'
 import resume from '../../../data/data.json'
 import './style.css'
 import { Link } from 'react-router-dom'
@@ -9,7 +8,6 @@ const Github = () => {
   const dataGithub = resume.github;
   return (  
     <>
-      <PersonalData />
       <Container fluid className='divgithub'>
         <Row>
           <Col xs={12} md={12}>

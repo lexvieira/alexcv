@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import resume from '../../../../data/data.json'
 import ProfilePicture from '../../../ProfilePicture'
 import LinksContact from '../Links'
@@ -23,7 +23,10 @@ const Identification = () => {
                 <span key={index}>{(index >= 1 ? ', ' : ' ') + obj}</span>
               ))}
             </p> 
-            <LinksContact />
+            <div className='linkscontacttop'>
+              <LinksContact />              
+            </div>
+
           </div>
           
         </Col>

@@ -23,10 +23,10 @@ const SideBar = ({ setSideBarState, display }: SideBarProps) => {
   return (
 
     <>
-      <Navbar
+      <Navbar className='sidebar'
         bg="light"
         expand="lg"
-        style={{ display: show === true ? 'block' : 'none' }}
+        // style={{ display: show === true ? 'block' : 'none' }}
       >
         <Container fluid>
               <Nav className="mr-auto flex-column nav sidebar text-nowrap">
@@ -41,7 +41,7 @@ const SideBar = ({ setSideBarState, display }: SideBarProps) => {
                   {topics.map((topic: any, index: number) => (
                     <Nav.Item className="nav-item nav-link" key={index}>
                       <Link className="" to={topic.link} onClick={() => {setSideBarState(false)}}>
-                        <RenderIconSideBar icon={topic.icon} /> {topic.topic}
+                        <RenderIconSideBar icon={topic.icon} /> {show === true ? topic.topic : ""}
                       </Link>
                     </Nav.Item>
                   ))}

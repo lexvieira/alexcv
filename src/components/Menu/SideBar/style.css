@@ -3,5 +3,9 @@ div.sidebar a {
   color: #4885ed;
 }
 
+nav.sidebar {
+  align-items: start;
+}
+
 
 /* padding: 0.5rem 1rem; */

@@ -15,7 +15,7 @@ import './style.css'
 // const Main: React.FC<Props> = ({ component }: Props) => {
 
 const Main = () => {
-  const [show, setShow] = useState<boolean>(true)
+  const [show, setShow] = useState<boolean>(false)
   const setSideBarState = (display: boolean) => {
     setShow(display)
     // alert(display);
@@ -38,7 +38,7 @@ const Main = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col style={{marginTop:"25px", marginBottom: "10px"}}>
                 <BackHome />
               </Col>
             </Row>

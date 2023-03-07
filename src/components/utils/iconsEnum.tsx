@@ -31,6 +31,7 @@ const IconsArray = [
   <AiIcons.AiFillLinkedin />,
   <AiIcons.AiOutlineWhatsApp />,
   <AiIcons.AiFillSkype />,
+  <AiIcons.AiOutlineFilePdf />,  
 ]
 
 //Next Version

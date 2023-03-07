@@ -65,6 +65,15 @@ const LinksContact = () => {
                 <span className="italic">(website under development)</span>
               </a>
             </li>
+            <li>
+              <a
+                href={dataUser.download}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RenderIconSideBar icon={25} /> <span className="italic">(PDF Version)</span>{' '}
+              </a>
+            </li>            
           </ul>
         </Col>
       </Row>

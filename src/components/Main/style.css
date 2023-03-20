@@ -39,6 +39,9 @@ ul a {
 
 .page-content-wrapper {
   min-width: 75%;
+  margin-top: 25px;  
+  margin-left: 0px;
+  padding-left: 15px;
 }
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {

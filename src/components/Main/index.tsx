@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { IconContext } from 'react-icons'
 import { Outlet } from 'react-router-dom'
 import Footer from '../FooterPage'
 import BackHome from '../Menu/Back'
 import Header from '../Menu/HeaderPage'
 // import Parent from '../Pass'
 import SideBar from '../Menu/SideBar'
+import RenderIconsByID from '../utils/renderIcons'
 import './style.css'
 
 // interface Props {
@@ -31,14 +33,25 @@ const Main = () => {
         <SideBar setSideBarState={setSideBarState} display={show} />
         {/* Page Content Wrapper, include Header and Content Together */}
         <div className="page-content-wrapper">
-          <Container fluid className="main">
+          <Container fluid className="main dashedborders">
+            <div className="iconCircle">
+              <IconContext.Provider
+                value={{
+                  color: '#00509e',
+                  size: '1.5em',
+                  className: 'global-class-name',
+                }}
+              >
+                <RenderIconsByID icon={25} />
+              </IconContext.Provider>
+            </div>
             <Row>
-              <Col xl={9} lg={9} md={'auto'} sm={'auto'} >
+              <Col xl={9} lg={9} md={'auto'} sm={'auto'}>
                 <Outlet />
               </Col>
             </Row>
             <Row>
-              <Col style={{marginTop:"25px", marginBottom: "10px"}}>
+              <Col style={{ marginTop: '25px', marginBottom: '10px' }}>
                 <BackHome />
               </Col>
             </Row>

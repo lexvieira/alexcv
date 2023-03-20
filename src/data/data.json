@@ -283,14 +283,19 @@
       {
         "company": "SABBATICAL / CAREER BREAK",
         "when": "Jan/2019 – Present ",
-        "activities": "Traveling through Europe between 2018 and 2020, improving my English skills, meeting people, learning about the culture, studying about the recycling process in Europe. Between 2020 and 2022 in Asia also studying about recycling and helping people to learn English. Furthermore, sporadically working as a freelancer consultant, learning new programming languages and technologies and enjoying the time visiting my family.",
+        "activities": [
+          "Traveling through Europe between 2018 and 2020, improving my English skills, meeting people, learning about the culture, studying about the recycling process in Europe. Between 2020 and 2022 in Asia also studying about recycling and helping people to learn English. Furthermore, sporadically working as a freelancer consultant, learning new programming languages and technologies and enjoying the time visiting my family."
+        ],
+        "technologies": [],
         "subcompanies": [
           {
+            "company": null,
             "occupation": "KINDERGARTEN, PRIMARY AND HIGH SCHOOL ENGLISH TEACHER IN THAILAND",
             "when": "Aug/2020 – Nov/2020 / May/2021 - Jul/2021 ",
             "activities": [
               "Working and volunteering as English Teacher in small villages, teaching about conversation and using technologies like Duolingo for schools to captivate students to learn in a friendly way. Creating also the computer language lab in 2 different schools for online learning. "
-            ]
+            ],
+            "technologies": []
           }
         ]
       },
@@ -342,71 +347,72 @@
               "Database maintenance",
               "Team Foundation Server (TFS)."
             ]
-          }
-        ]
-      },
-      {
-        "company": "TELEFONICA TELECOMUNICAÇÕES/VIVO.",
-        "when": "Sep/2012 – Jul/2017",
-        "departments": [
-          {
-            "department": "Planning Department of Datalinks Installation.",
-            "occupations": [
-              {
-                "occupation": "Telecom Analyst II",
-                "when": "Sep/2010 - Sep/2012"
-              },
-              {
-                "occupation": "Supervisor (Contract)",
-                "when": "May/2010 - Sep/2010"
-              }
-            ]
           },
           {
-            "department": "Planning Department of Datalinks Repair.",
-            "occupations": [
+            "company": "TELEFONICA TELECOMUNICAÇÕES/VIVO.",
+            "when": "Sep/2012 – Jul/2017",
+            "departments": [
               {
-                "occupation": "Senior Technician",
-                "when": "Mar/2010 - May/2010"
+                "department": "Planning Department of Datalinks Installation.",
+                "occupations": [
+                  {
+                    "occupation": "Telecom Analyst II",
+                    "when": "Sep/2010 - Sep/2012"
+                  },
+                  {
+                    "occupation": "Supervisor (Contract)",
+                    "when": "May/2010 - Sep/2010"
+                  }
+                ]
               },
               {
-                "occupation": "Full Technician",
-                "when": "Oct/2008 - Mar/2010"
-              },
-              {
-                "occupation": "Early Positions: Attendant/Analyst,Examiner",
-                "when": "Jan/2007 - Oct/2008"
+                "department": "Planning Department of Datalinks Repair.",
+                "occupations": [
+                  {
+                    "occupation": "Senior Technician",
+                    "when": "Mar/2010 - May/2010"
+                  },
+                  {
+                    "occupation": "Full Technician",
+                    "when": "Oct/2008 - Mar/2010"
+                  },
+                  {
+                    "occupation": "Early Positions: Attendant/Analyst,Examiner",
+                    "when": "Jan/2007 - Oct/2008"
+                  }
+                ]
               }
+            ],
+            "occupation": "System Analyst",
+            "activities": [
+              "IT and Telecom projects.",
+              "Requirements analysis, Business process automation.",
+              "Maintenance of legacy systems in PHP, C#, ASP Classic, MySQL.",
+              "Full Stack Development using C# SQL Server.",
+              "Data Analysis, reports, dashboards, ad hoc queries and presentation for meetings. Reports automation using Excel VBA, ",
+              "On-premise Infrastructure management, Windows Server, Databases, backup, migration, FTP Server."
+            ],
+            "technologies": [
+              "C#",
+              "VB.Net",
+              "Ajax",
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "XML",
+              "PHP",
+              "SQL Server",
+              "Procedures",
+              "Views",
+              "Triggers",
+              "ETL",
+              "Backup",
+              "On-premise Infrastructure Management"
             ]
           }
-        ],
-        "occupation": "System Analyst",
-        "activities": [
-          "IT and Telecom projects.",
-          "Requirements analysis, Business process automation.",
-          "Maintenance of legacy systems in PHP, C#, ASP Classic, MySQL.",
-          "Full Stack Development using C# SQL Server.",
-          "Data Analysis, reports, dashboards, ad hoc queries and presentation for meetings. Reports automation using Excel VBA, ",
-          "On-premise Infrastructure management, Windows Server, Databases, backup, migration, FTP Server."
-        ],
-        "technologies": [
-          "C#",
-          "VB.Net",
-          "Ajax",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "XML",
-          "PHP",
-          "SQL Server",
-          "Procedures",
-          "Views",
-          "Triggers",
-          "ETL",
-          "Backup",
-          "On-premise Infrastructure Management"
         ]
       },
+
       {
         "company": "TECLA MASTER COMÉRCIO E IMPORTAÇÃO LTDA",
         "when": "Jan/2006 - Sep/2006",

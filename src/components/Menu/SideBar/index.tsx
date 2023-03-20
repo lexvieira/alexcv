@@ -6,6 +6,7 @@ import { IconContext } from 'react-icons'
 import './style.css'
 import RenderIconSideBar from '../../utils/iconsEnum'
 import SideBarProps from '../Interfaces';
+import RenderIconsByID from '../../utils/renderIcons'
 
 const SideBar = ({ setSideBarState, display }: SideBarProps) => {
   const [show, setShow] = useState(display)
@@ -41,7 +42,8 @@ const SideBar = ({ setSideBarState, display }: SideBarProps) => {
                   {topics.map((topic: any, index: number) => (
                     <Nav.Item className="nav-item nav-link" key={index}>
                       <Link className="" to={topic.link} onClick={() => {setSideBarState(false)}}>
-                        <RenderIconSideBar icon={topic.icon} /> {show === true ? topic.topic : ""}
+                        {/* <RenderIconSideBar icon={topic.icon} /> {show === true ? topic.topic : ""} */}
+                        <RenderIconsByID icon={topic.icon} /> {show === true ? topic.topic : ""}
                       </Link>
                     </Nav.Item>
                   ))}

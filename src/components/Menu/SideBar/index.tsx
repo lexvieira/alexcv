@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import resume from '../../../data/data.json'
 import { IconContext } from 'react-icons'
 import './style.css'
-import RenderIconSideBar from '../../utils/iconsEnum'
+// import RenderIconSideBar from '../../utils/iconsEnum'
 import SideBarProps from '../Interfaces';
 import RenderIconsByID from '../../utils/renderIcons'
 

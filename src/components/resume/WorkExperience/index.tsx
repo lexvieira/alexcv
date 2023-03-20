@@ -24,13 +24,15 @@ const WorkExperience = () => {
                     {company.subcompanies?.map((company, index) => (
                       <p>
                         <h5>{company.company}</h5>
-                        <h5>{company.occupation}</h5>
+                        <h4>{company.occupation}</h4>
                         <p>{company.when}</p>
                         <ul>
                           {company.activities.map((activity, index) => (
                             <li key={index}>{activity}</li>
                           ))}
                         </ul>
+                        <hr></hr>
+                        {company.technologies.length > 0 ? <h4>Technologies</h4> : ""}
                         {company.technologies?.map((tech, index) => (
                           <>
                             <Button key={index} variant="primary">
